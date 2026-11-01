@@ -1,0 +1,43 @@
+{
+  "title": "用户服务协议",
+  "introduction": "预约前请了解服务约定。",
+  "footerTitle": "开发测试草案",
+  "footer": "正式运营前需补齐运营主体、服务资质、完整条款与争议处理规则。",
+  "sections": [
+    {
+      "id": "terms-booking",
+      "title": "预约与服务",
+      "body": "请提供准确的乘车人、联系方式、起终点、预约时间和协助需求。平台根据服务区域、车型与预约规则受理订单，接送安排以订单详情和客服确认为准。",
+      "mediaType": "TEXT",
+      "mediaUrl": "",
+      "posterUrl": "",
+      "linkUrl": "",
+      "actions": [],
+      "enabled": true
+    },
+    {
+      "id": "terms-fees",
+      "title": "费用与取消",
+      "body": "预约用车按平台价格规则计算；包车由人工报价，您确认后支付。已支付订单取消需由平台审核，退款以订单状态与退款记录为准。请勿向个人账号支付订单费用。",
+      "mediaType": "TEXT",
+      "mediaUrl": "",
+      "posterUrl": "",
+      "linkUrl": "",
+      "actions": [],
+      "enabled": true
+    },
+    {
+      "id": "terms-promotion",
+      "title": "推广与提现",
+      "body": "推广佣金根据有效订单和平台规则结算；退款订单佣金会回退。提现须经平台审核，付款记录可在推广页面查询。",
+      "mediaType": "TEXT",
+      "mediaUrl": "",
+      "posterUrl": "",
+      "linkUrl": "",
+      "actions": [
+        "contact"
+      ],
+      "enabled": true
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "预约出行",
+  "appid": "__UNI__ACCESSIBLE",
+  "description": "无障碍预约用车与包车开源示例",
+  "versionName": "0.1.0", "versionCode": "100",
+  "transformPx": false,
+  "h5": { "title": "预约出行", "router": { "mode": "hash" } },
+  "mp-weixin": {
+    "appid": "", "setting": { "urlCheck": true, "es6": true, "minified": true },
+    "usingComponents": true,
+    "lazyCodeLoading": "requiredComponents",
+    "permission": { "scope.userLocation": { "desc": "用于选择上车地点并查询附近地址" } },
+    "requiredPrivateInfos": ["getLocation"]
+  },
+  "vueVersion": "3"
+}

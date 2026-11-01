@@ -1,0 +1,27 @@
+{
+  "pages": [
+    { "path": "pages/index/index", "style": { "navigationBarTitleText": "预约出行" } },
+    { "path": "pages/orders/index", "style": { "navigationBarTitleText": "我的订单", "enablePullDownRefresh": true } },
+    { "path": "pages/profile/index", "style": { "navigationBarTitleText": "个人中心" } },
+    { "path": "pages/login/index", "style": { "navigationBarTitleText": "登录 / 注册" } },
+    { "path": "pages/booking/index", "style": { "navigationBarTitleText": "预约出行" } },
+    { "path": "pages/address/index", "style": { "navigationBarTitleText": "选择地点" } },
+    { "path": "pages/order/index", "style": { "navigationBarTitleText": "订单详情", "enablePullDownRefresh": true } },
+    { "path": "pages/resources/index", "style": { "navigationBarTitleText": "常用信息" } },
+    { "path": "pages/promotion/index", "style": { "navigationBarTitleText": "推广与佣金" } },
+    { "path": "pages/messages/index", "style": { "navigationBarTitleText": "消息通知" } },
+    { "path": "pages/agreement/index", "style": { "navigationBarTitleText": "服务说明", "enablePullDownRefresh": true } }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "black", "navigationBarTitleText": "预约出行",
+    "navigationBarBackgroundColor": "#f5f6f7", "backgroundColor": "#f5f6f7"
+  },
+  "tabBar": {
+    "color": "#646a73", "selectedColor": "#16845b", "backgroundColor": "#ffffff", "borderStyle": "white",
+    "list": [
+      { "pagePath": "pages/index/index", "text": "首页", "iconPath": "static/icons/home-muted.png", "selectedIconPath": "static/icons/home-brand.png" },
+      { "pagePath": "pages/orders/index", "text": "订单", "iconPath": "static/icons/orders-muted.png", "selectedIconPath": "static/icons/orders-brand.png" },
+      { "pagePath": "pages/profile/index", "text": "我的", "iconPath": "static/icons/user-muted.png", "selectedIconPath": "static/icons/user-brand.png" }
+    ]
+  }
+}

@@ -1,0 +1,3 @@
+ALTER TABLE users ADD COLUMN phone_verified BOOLEAN NOT NULL DEFAULT FALSE;
+ALTER TABLE users ADD COLUMN phone_country_code VARCHAR(8);
+ALTER TABLE users ADD COLUMN phone_verified_at TIMESTAMP NULL;
